@@ -1,0 +1,10 @@
+import java.util.Scanner;
+class StrInt
+{
+public static void main(String[] args)
+{
+String str1="143";
+int num1 = Integer.valueOf(str1);
+System.out.println(num1);
+}
+}
