@@ -1,0 +1,28 @@
+import java.util.*;
+public class Vote
+{
+public static void main(String[] args)
+{
+int time;
+Scanner sc=new Scanner(System.in);
+System.out.println("enter the age of the personn:");
+int age=sc.nextInt();
+if(age==0)
+{
+System.out.println("Person have to wait for 18 years");
+}
+else if(age>18)
+{
+System.out.println("person is elgible to vote");
+}
+else if(age<0)
+{
+System.out.println("In valide input:");
+}
+else
+{
+time=18-age;
+System.out.println("Person have to waite for"+time);
+}
+}
+}
